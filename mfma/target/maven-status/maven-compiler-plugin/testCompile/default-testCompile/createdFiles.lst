@@ -1,0 +1,12 @@
+genericLibrary\FolderZiper.class
+genericLibrary\ReadFromExcel.class
+mfma\screens\VaultSelection.class
+genericLibrary\DataProviderUtils.class
+genericLibrary\TestApp.class
+genericLibrary\EmailReport.class
+mfma\stepdefinitions\Hooks.class
+genericLibrary\TestDataExtractor.class
+mfma\screens\Login.class
+mfma\stepdefinitions\LoginSteps.class
+genericLibrary\Log.class
+mfma\screens\AddServer.class

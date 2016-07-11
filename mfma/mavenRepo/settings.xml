@@ -1,0 +1,54 @@
+<settings xmlns="http://maven.apache.org/POM/4.0.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/settings-1.0.0.xsd">
+ <mirrors>
+    <mirror>
+      <id>maven.org</id>
+      <name>Maven2 Repository</name>
+      <url>http://repo1.maven.org/maven2</url>
+      <mirrorOf>central</mirrorOf>
+    </mirror>
+ </mirrors>
+<profiles>
+    <profile>
+      <id>nexus</id>
+      <repositories>
+        <repository>
+          <id>central</id>
+          <url>http://central</url>
+          <releases><enabled>true</enabled></releases>
+          <snapshots><enabled>true</enabled></snapshots>
+        </repository>
+      </repositories>
+     <pluginRepositories>
+        <pluginRepository>
+          <id>central</id>
+          <url>http://central</url>
+          <releases><enabled>true</enabled></releases>
+          <snapshots><enabled>true</enabled></snapshots>
+        </pluginRepository>
+         <pluginRepository>
+                        <id>Codehaus Snapshots</id>
+                        <url>http://snapshots.repository.codehaus.org/</url>
+                        <snapshots>
+                                <enabled>true</enabled>
+                        </snapshots>
+                        <releases>
+                                <enabled>false</enabled>
+                        </releases>
+        </pluginRepository>
+
+      </pluginRepositories>
+    </profile>
+</profiles>
+  <proxies>
+    <proxy>
+        <active>true</active>
+        <protocol>http</protocol>
+        <host>proxy.aspiresys.com</host>
+        <port>3128</port>
+      </proxy>
+    
+  </proxies>
+ </settings>

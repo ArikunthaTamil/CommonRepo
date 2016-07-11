@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteMFMA]">
+  <parameter name="deviceName" value="emulator-5554"/>
+  <parameter name="platform" value="ANDROID"/>
+  <test name="TestMFMA(failed)">
+    <parameter name="deviceName" value="emulator-5554"/>
+    <parameter name="platform" value="ANDROID"/>
+    <classes>
+      <class name="genericLibrary.TestApp">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- genericLibrary.TestApp -->
+    </classes>
+  </test> <!-- TestMFMA(failed) -->
+</suite> <!-- Failed suite [SuiteMFMA] -->

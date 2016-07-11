@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.45 sec <<< FAILURE! - in TestSuite
+feature(genericLibrary.TestApp)  Time elapsed: 1.162 sec  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+
+feature(genericLibrary.TestApp)  Time elapsed: 0.034 sec  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+

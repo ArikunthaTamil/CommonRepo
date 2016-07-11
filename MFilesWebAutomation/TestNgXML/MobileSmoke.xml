@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MFiles Mobile Access - Smoke">
+
+	<parameter name="platform" value="ANDROID" />
+	<parameter name="deviceName" value="emulator-5554" />
+	<parameter name="UserName" value="JohnS" />
+	<parameter name="UserFullName" value="John Stewart" />
+	<parameter name="Password" value="test" />
+	<parameter name="VaultName" value="Sample Vault" />
+	<parameter name="deviceHost" value="192.168.2.221" />
+	<parameter name="driverPort" value="8081" />
+	<parameter name="appName" value="mFiles-production-release-Q2.apk" />
+	
+	<test name="Mobile access - Smoke Test cases">
+		<classes>
+			<class name="MFMA.Tests.SmokeTestCases">
+			</class>
+		</classes>
+	</test>
+</suite> 
+
+<!-- Suite -->

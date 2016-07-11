@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteMFMA">
+    <parameter name="platform" value="ANDROID" />
+	<parameter name="deviceName" value="emulator-5554" />
+	<test name="TestMFMA">
+		<classes>
+			<class name="genericLibrary.TestApp"></class>
+		</classes>
+	</test> <!-- TestMFMA -->
+</suite> <!-- SuiteMFMA -->
